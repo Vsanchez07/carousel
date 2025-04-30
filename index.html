@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class=" relative w-full mx-w-[600px] overflow-hidden">
+        <div class="flex" id="container">
+            <img src="carousel/Banner-1.jpg" id="sa" class="w-full" alt="Banner-1">
+            <img src="carousel/Banner-2.jpg" id="sa" class="w-full" alt="Banner-2">
+            <img src="carousel/Banner-3.jpg" id="sa" class="w-full" alt="Banner-3">
+    
+            
+        </div>
+
+        <div class="absolute top-0 w-[50%] h-full bg-red-100/50 z-[1]">
+            <div class="p-[20px]">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis dolorum tempore aspernatur sapiente id eos sint assumenda distinctio debitis in, enim quos cum iure consequatur eum? Quas rerum sequi molestias?
+                </p>
+            </div>
+        </div>
+
+        <div class="absolute top-[50%] z-[2] w-full">
+            <div class="container mx-auto flex justify-between">
+                <button disabled class="p-[10px] bg-gray-500/50 hover:bg-gray-600 hover:text-white cursor-pointer text-gray-600" id="prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                    </svg>
+
+                </button>
+                <button class="p-[10px] bg-gray-500/50 hover:bg-gray-600 hover:text-white cursor-pointer text-gray-600" id="next">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    </svg>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
